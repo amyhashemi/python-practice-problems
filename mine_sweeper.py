@@ -22,7 +22,21 @@ def mine_sweeper(bombs, num_rows, num_cols):
 
     return field
 
+def click(field, num_rows, num_cols, given_i, given_j):
+    '''
+    Params: field: a 2D array depicting a minesweeper field
+            num_rows: number of rows in the field
+            num_cols: number of columns in the field
+            given_i: row position where the user wants to click
+            given_j: column position where the user wants to click
+    '''
+
+    
+
+
+
 field = mine_sweeper(([1,0],[0,1]), 3, 4)
+
 print(field[0])
 print(field[1])
 print(field[2])
