@@ -57,4 +57,3 @@ print(ans)
 ans = is_one_away("abc", "abcde")  # should return False
 print(ans)
 ans = is_one_away("abc", "bcc")  # should return False
-print(ans)
