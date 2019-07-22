@@ -47,11 +47,11 @@ element = head.nth_from_last(head, 1) #should return 1.
 print(element)
 element = head.nth_from_last(head, 5) #should return 5.
 print(element)
-element = head.nth_from_last(head2, 2) #should return 3.
+element = head2.nth_from_last(head2, 2) #should return 3.
 print(element)
-element = head.nth_from_last(head2, 4) #should return 1.
+element = head2.nth_from_last(head2, 4) #should return 1.
 print(element)
-element = head.nth_from_last(head2, 5) #should return None.
+element = head2.nth_from_last(head2, 5) #should return None.
 print(element)
-element = head.nth_from_last(None, 1) #should return None.
+element = head2.nth_from_last(None, 1) #should return None.
 print(element)
